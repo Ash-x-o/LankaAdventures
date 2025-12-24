@@ -46,9 +46,9 @@ app.use('/api/notifications', notificationApi);
 app.use('/api/reviews', reviewApi);
 
 
-app.get('/', (req, res) => {
-  res.send('🚀 Aperture Backend is running!');
-});
+// app.get('/', (req, res) => {
+//   res.send('🚀 Aperture Backend is running!');
+// });
 
 if (process.env.NODE_ENV === "production") {
   // Serve React build in production
