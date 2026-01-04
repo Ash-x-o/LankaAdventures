@@ -117,10 +117,10 @@ The application supports:
 *   Create a .env file and add:
     
 
-`   MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-FRONTEND_URL=http://localhost:3000
-PORT=3001  LOCAL_HOST=127.0.0.1   `
+`   MONGO_URI=your_mongodb_connection_string `
+`JWT_SECRET=your_secret_key`
+`FRONTEND_URL=http://localhost:3000`
+`PORT=3001  LOCAL_HOST=127.0.0.1   `
 
 *   Start the server:
     
